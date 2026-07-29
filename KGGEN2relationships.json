@@ -1,0 +1,812 @@
+[
+  {
+    "source": "thrifty women-folk in Stillwater",
+    "target": "Mercedes",
+    "type": "JEERED_AT",
+    "properties": {}
+  },
+  {
+    "source": "Mary Bascom",
+    "target": "brother",
+    "type": "MAY_DIE_LIKE",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Garden",
+    "type": "HOPES_FOR",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "garden",
+    "type": "HAS_AFFECTION_FOR",
+    "properties": {}
+  },
+  {
+    "source": "Tamzine",
+    "target": "yellow flowers",
+    "type": "LIKES",
+    "properties": {}
+  },
+  {
+    "source": "Tamzine",
+    "target": "Cat",
+    "type": "HAS",
+    "properties": {}
+  },
+  {
+    "source": "bell",
+    "target": "small Catholic chapel",
+    "type": "WAS_RINGING_IN",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Woman who left the cat",
+    "type": "INTENDS_TO_TELL",
+    "properties": {}
+  },
+  {
+    "source": "Abel Armstrong",
+    "target": "College",
+    "type": "ATTENDED",
+    "properties": {}
+  },
+  {
+    "source": "He",
+    "target": "brown hand",
+    "type": "HELD",
+    "properties": {}
+  },
+  {
+    "source": "Abel's favourite seat",
+    "target": "harbour",
+    "type": "HAS_VIEW_OF",
+    "properties": {}
+  },
+  {
+    "source": "front door",
+    "target": "garden",
+    "type": "LEADS_TO",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Lombardy poplars",
+    "type": "LIKED",
+    "properties": {}
+  },
+  {
+    "source": "garden",
+    "target": "Abel",
+    "type": "HAS_DONE_MORE_THAN",
+    "properties": {}
+  },
+  {
+    "source": "kitten",
+    "target": "cat",
+    "type": "IS_A",
+    "properties": {}
+  },
+  {
+    "source": "Medicine",
+    "target": "Dog",
+    "type": "CAN_KILL",
+    "properties": {}
+  },
+  {
+    "source": "Garden",
+    "target": "Abel Armstrong",
+    "type": "BELONGS_TO",
+    "properties": {}
+  },
+  {
+    "source": "City folks",
+    "target": "Summer homes down the harbour",
+    "type": "HAVE",
+    "properties": {}
+  },
+  {
+    "source": "Tamzine",
+    "target": "wrappers",
+    "type": "WEARS",
+    "properties": {}
+  },
+  {
+    "source": "Summer",
+    "target": "Garden",
+    "type": "PASSES_THROUGH",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Alice",
+    "type": "HAS_SISTER",
+    "properties": {}
+  },
+  {
+    "source": "Abel's favourite seat",
+    "target": "trellis",
+    "type": "UNDER",
+    "properties": {}
+  },
+  {
+    "source": "business",
+    "target": "moonrise",
+    "type": "WILL_BE_SETTLED_AFTER",
+    "properties": {}
+  },
+  {
+    "source": "I",
+    "target": "Dreams",
+    "type": "IS_DONE_WITH",
+    "properties": {}
+  },
+  {
+    "source": "trellis",
+    "target": "hop-vines",
+    "type": "OVERHUNG_BY",
+    "properties": {}
+  },
+  {
+    "source": "Mary Bascom",
+    "target": "Bascom consumption",
+    "type": "HAS",
+    "properties": {}
+  },
+  {
+    "source": "graveyard",
+    "target": "little chapel",
+    "type": "LOCATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "Alec",
+    "target": "hop-vine arbour",
+    "type": "MADE",
+    "properties": {}
+  },
+  {
+    "source": "Alec",
+    "target": "Mercedes",
+    "type": "MARRIED",
+    "properties": {}
+  },
+  {
+    "source": "Cat",
+    "target": "I",
+    "type": "INTRODUCES",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Dark wine-hued hollyhock",
+    "type": "LIKES",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "hop-vine arbour",
+    "type": "PASSED_TEST_OF_SILENCE_IN",
+    "properties": {}
+  },
+  {
+    "source": "Geordie Marr",
+    "target": "garden",
+    "type": "HAS_GARDEN",
+    "properties": {}
+  },
+  {
+    "source": "garden",
+    "target": "singing birds",
+    "type": "CONTAINS",
+    "properties": {}
+  },
+  {
+    "source": "Alec",
+    "target": "Mercedes",
+    "type": "HAD_INFATUATION_WITH",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "City folks",
+    "type": "THINKS",
+    "properties": {}
+  },
+  {
+    "source": "Geordie Marr",
+    "target": "garden",
+    "type": "GETS_MONEY_FROM",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Captain Kidd",
+    "type": "SAVES",
+    "properties": {}
+  },
+  {
+    "source": "Bank",
+    "target": "Golden glow",
+    "type": "IS_A_BANK_OF",
+    "properties": {}
+  },
+  {
+    "source": "Alec",
+    "target": "West Indies",
+    "type": "HAD_VOYAGE_TO",
+    "properties": {}
+  },
+  {
+    "source": "garden",
+    "target": "harbour shore",
+    "type": "BY",
+    "properties": {}
+  },
+  {
+    "source": "I",
+    "target": "Captain Kidd",
+    "type": "ASKS_ABOUT",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "old Tamzine",
+    "type": "SEES",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Dreams",
+    "type": "PREDICTS",
+    "properties": {}
+  },
+  {
+    "source": "Cat",
+    "target": "Arbour",
+    "type": "GOES_TO",
+    "properties": {}
+  },
+  {
+    "source": "kitten",
+    "target": "tree branches",
+    "type": "WAS_CAUGHT_IN",
+    "properties": {}
+  },
+  {
+    "source": "garden",
+    "target": "maritime spring evening",
+    "type": "IN",
+    "properties": {}
+  },
+  {
+    "source": "Alice",
+    "target": "James Milburn",
+    "type": "WAVED_GOODBYE_TO",
+    "properties": {}
+  },
+  {
+    "source": "Abel Armstrong",
+    "target": "Tamzine",
+    "type": "HAS_SISTER",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Kittens",
+    "type": "FEEDS",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Dreams",
+    "type": "FAVORS",
+    "properties": {}
+  },
+  {
+    "source": "apple-tree",
+    "target": "rosy blossom",
+    "type": "HAS",
+    "properties": {}
+  },
+  {
+    "source": "steamer\u2019s smoke",
+    "target": "golden sand-dunes of the bar",
+    "type": "BEYOND",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "cod",
+    "type": "FISHED",
+    "properties": {}
+  },
+  {
+    "source": "sunset city",
+    "target": "great deep harbour",
+    "type": "BUILT_AROUND",
+    "properties": {}
+  },
+  {
+    "source": "Yellow",
+    "target": "Abel",
+    "type": "EXCITES",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Shallow satin cups",
+    "type": "LOOKS_INTO",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "hop-vine arbour",
+    "type": "SAT_IN",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Dreams",
+    "type": "MENTIONS",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "trellis",
+    "type": "LEANED_AGAINST",
+    "properties": {}
+  },
+  {
+    "source": "Mrs. Campbell",
+    "target": "He",
+    "type": "CONCLUDED_ABOUT",
+    "properties": {}
+  },
+  {
+    "source": "kitten",
+    "target": "ribbon collar",
+    "type": "HAD",
+    "properties": {}
+  },
+  {
+    "source": "little chapel",
+    "target": "harbour",
+    "type": "OVER",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Mother cat",
+    "type": "FINDS",
+    "properties": {}
+  },
+  {
+    "source": "Captain Kidd",
+    "target": "singing birds",
+    "type": "DOES_NOT_MEDDLE_WITH",
+    "properties": {}
+  },
+  {
+    "source": "Mary Bascom",
+    "target": "father",
+    "type": "MAY_DIE_LIKE",
+    "properties": {}
+  },
+  {
+    "source": "mother",
+    "target": "Marwood heart",
+    "type": "HAS",
+    "properties": {}
+  },
+  {
+    "source": "He",
+    "target": "college",
+    "type": "DID_NOT_MIND",
+    "properties": {}
+  },
+  {
+    "source": "Stillwater farmers and fishers",
+    "target": "Stillwater",
+    "type": "ARE_RESIDENTS_OF",
+    "properties": {}
+  },
+  {
+    "source": "Cat",
+    "target": "Abel",
+    "type": "INTRODUCES",
+    "properties": {}
+  },
+  {
+    "source": "Mother cat",
+    "target": "Kittens",
+    "type": "PROTECTS",
+    "properties": {}
+  },
+  {
+    "source": "moonrise",
+    "target": "sea",
+    "type": "HAS_SHEEN_OVER",
+    "properties": {}
+  },
+  {
+    "source": "Captain Kidd",
+    "target": "Abel",
+    "type": "BESIDE",
+    "properties": {}
+  },
+  {
+    "source": "ship",
+    "target": "harbour",
+    "type": "SAILS_OUT_OF",
+    "properties": {}
+  },
+  {
+    "source": "Tamzine",
+    "target": "vegetable plot",
+    "type": "HAS",
+    "properties": {}
+  },
+  {
+    "source": "waves",
+    "target": "gray shore",
+    "type": "IS_ON",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Captain Kidd",
+    "type": "STROKES",
+    "properties": {}
+  },
+  {
+    "source": "business",
+    "target": "moonrise",
+    "type": "IS_EXPECTED_DURING",
+    "properties": {}
+  },
+  {
+    "source": "Father",
+    "target": "garden",
+    "type": "WALKED_IN",
+    "properties": {}
+  },
+  {
+    "source": "sagging gate",
+    "target": "white lilacs",
+    "type": "FLANKED_BY",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "dog",
+    "type": "HAD",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Tamzine",
+    "type": "THANKS",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "garden",
+    "type": "AIDED",
+    "properties": {}
+  },
+  {
+    "source": "great revolving light",
+    "target": "channel",
+    "type": "LOCATED_AT",
+    "properties": {}
+  },
+  {
+    "source": "garden",
+    "target": "Abel",
+    "type": "IS_VISITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "Tamzine",
+    "target": "garden",
+    "type": "WEEDS",
+    "properties": {}
+  },
+  {
+    "source": "wind",
+    "target": "pines",
+    "type": "IS_IN",
+    "properties": {}
+  },
+  {
+    "source": "Tamzine",
+    "target": "Abel",
+    "type": "WORSHIPS",
+    "properties": {}
+  },
+  {
+    "source": "Mrs. Warner",
+    "target": "Channel Head",
+    "type": "IS_AT",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "garden",
+    "type": "SEES",
+    "properties": {}
+  },
+  {
+    "source": "School (summer term)",
+    "target": "Stillwater",
+    "type": "IS_LOCATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "James Milburn",
+    "target": "Alice",
+    "type": "WAS_LOVER_OF",
+    "properties": {}
+  },
+  {
+    "source": "Tamzine",
+    "target": "Golden glow",
+    "type": "REVELS_IN",
+    "properties": {}
+  },
+  {
+    "source": "Dead butterfly",
+    "target": "Fern corner",
+    "type": "BURIED_IN",
+    "properties": {}
+  },
+  {
+    "source": "Cat (yaller cat)",
+    "target": "Abel Armstrong",
+    "type": "BELONGS_TO",
+    "properties": {}
+  },
+  {
+    "source": "bell",
+    "target": "little chapel",
+    "type": "FROM",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "market-place",
+    "type": "QUESTIONED_DISTANCE_TO",
+    "properties": {}
+  },
+  {
+    "source": "Abel Armstrong",
+    "target": "Gray house",
+    "type": "LIVED_IN",
+    "properties": {}
+  },
+  {
+    "source": "baby",
+    "target": "graveyard",
+    "type": "BURIED_IN",
+    "properties": {}
+  },
+  {
+    "source": "Mary Bascom",
+    "target": "white lilacs",
+    "type": "LOVES",
+    "properties": {}
+  },
+  {
+    "source": "apple-tree",
+    "target": "mossy circular seat",
+    "type": "HAS",
+    "properties": {}
+  },
+  {
+    "source": "Geordie Marr",
+    "target": "hotel folks",
+    "type": "SELLS_TO",
+    "properties": {}
+  },
+  {
+    "source": "New schoolmaster",
+    "target": "Stillwater",
+    "type": "WAS_LOCATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "Mrs. Warner",
+    "target": "Vale of tears",
+    "type": "DOES_NOT_WANT_TO_LIVE_IN",
+    "properties": {}
+  },
+  {
+    "source": "cloudy pine wood",
+    "target": "garden",
+    "type": "BEHIND",
+    "properties": {}
+  },
+  {
+    "source": "God",
+    "target": "Hollyhocks",
+    "type": "SPEAKS_THROUGH",
+    "properties": {}
+  },
+  {
+    "source": "Father",
+    "target": "Alice",
+    "type": "FAVOURED",
+    "properties": {}
+  },
+  {
+    "source": "hop-vine arbour",
+    "target": "September sea",
+    "type": "HAS_VIEW_OF",
+    "properties": {}
+  },
+  {
+    "source": "Mercedes",
+    "target": "Alec",
+    "type": "WORSHIPPED",
+    "properties": {}
+  },
+  {
+    "source": "Mercedes",
+    "target": "little chapel",
+    "type": "SLEPT_NEAR",
+    "properties": {}
+  },
+  {
+    "source": "He",
+    "target": "voice",
+    "type": "HAS",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Woman who left the cat",
+    "type": "KNOWS",
+    "properties": {}
+  },
+  {
+    "source": "Cat",
+    "target": "Abel",
+    "type": "JUMPS_ONTO",
+    "properties": {}
+  },
+  {
+    "source": "Mercedes",
+    "target": "hop-vine arbour",
+    "type": "SAT_AT",
+    "properties": {}
+  },
+  {
+    "source": "red light",
+    "target": "sail",
+    "type": "ON",
+    "properties": {}
+  },
+  {
+    "source": "Alice",
+    "target": "garden",
+    "type": "HAS_LAUGHTER_HEARD_IN",
+    "properties": {}
+  },
+  {
+    "source": "Mary Bascom",
+    "target": "white lilacs",
+    "type": "RECEIVES",
+    "properties": {}
+  },
+  {
+    "source": "graveyard",
+    "target": "harbour",
+    "type": "OVER",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "house",
+    "type": "GLANCED_AT",
+    "properties": {}
+  },
+  {
+    "source": "apple-tree",
+    "target": "garden",
+    "type": "IN",
+    "properties": {}
+  },
+  {
+    "source": "Father",
+    "target": "old apple-tree",
+    "type": "KNELT_UNDER",
+    "properties": {}
+  },
+  {
+    "source": "Alice",
+    "target": "Abel",
+    "type": "SAID_TO",
+    "properties": {}
+  },
+  {
+    "source": "Tamzine",
+    "target": "bright colours",
+    "type": "WEARS",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Captain Kidd",
+    "type": "SEES",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Kittens",
+    "type": "CARRIES",
+    "properties": {}
+  },
+  {
+    "source": "Geordie Marr",
+    "target": "harbour",
+    "type": "IS_LOCATED_IN",
+    "properties": {}
+  },
+  {
+    "source": "Tamzine",
+    "target": "Armstrong heart",
+    "type": "HAS",
+    "properties": {}
+  },
+  {
+    "source": "Gray house",
+    "target": "Harbour shore",
+    "type": "IS_CLOSE_TO",
+    "properties": {}
+  },
+  {
+    "source": "City folks",
+    "target": "Harbour",
+    "type": "LOCATED_AT",
+    "properties": {}
+  },
+  {
+    "source": "Abel Armstrong",
+    "target": "Board of School Trustees (in Stillwater)",
+    "type": "IS_A_MEMBER_OF",
+    "properties": {}
+  },
+  {
+    "source": "baby",
+    "target": "little chapel",
+    "type": "BURIED_AT",
+    "properties": {}
+  },
+  {
+    "source": "Mrs. Campbell",
+    "target": "Abel Armstrong",
+    "type": "DESCRIBED",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "garden",
+    "type": "VISITS",
+    "properties": {}
+  },
+  {
+    "source": "Abel",
+    "target": "Kittens",
+    "type": "FINDS_HOMES_FOR",
+    "properties": {}
+  },
+  {
+    "source": "sunshine",
+    "target": "waves",
+    "type": "LURKS_AROUND",
+    "properties": {}
+  }
+]
