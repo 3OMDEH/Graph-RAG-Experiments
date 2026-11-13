@@ -11,12 +11,12 @@ different Node objects across chunks (e.g. "Marie Curie" in chunk 3 and
 about this than GPT-4-class models).
 
 merge_graph_documents() collapses those into a single deduplicated graph,
-using the same idea Neo4jGraph.add_graph_documents(baseEntityLabel=True) uses
-at the database level: nodes are the same entity if they share an
-(id, type) key. Relationships are deduplicated the same way, remapped to
+using an explicit (normalized id, exact type) key. This identity rule is
+local to this utility and can differ from database-level merge semantics. Relationships are deduplicated the same way, remapped to
 point at the canonical node objects.
 """
 
+from copy import deepcopy
 from typing import Any, Dict, List, Tuple
 
 from langchain_community.graphs.graph_document import GraphDocument, Node, Relationship
@@ -25,19 +25,22 @@ from langchain_community.graphs.graph_document import GraphDocument, Node, Relat
 def _normalize_id(node_id: Any, case_sensitive: bool) -> str:
     """Normalize a node id for use as a merge key (does not change the stored id)."""
     text = str(node_id).strip()
-    return text if case_sensitive else text.lower()
+    return text if case_sensitive else text.casefold()
 
 
 def _merge_properties(existing: Dict[str, Any], new: Dict[str, Any]) -> Dict[str, Any]:
     """Combine two property dicts without silently dropping conflicting values."""
-    merged = dict(existing)
+    merged = deepcopy(existing)
     for key, value in new.items():
         if key not in merged:
-            merged[key] = value
+            merged[key] = deepcopy(value)
         elif merged[key] != value:
             existing_values = merged[key] if isinstance(merged[key], list) else [merged[key]]
-            if value not in existing_values:
-                merged[key] = existing_values + [value]
+            incoming = value if isinstance(value, list) else [value]
+            for item in incoming:
+                if item not in existing_values:
+                    existing_values = existing_values + [deepcopy(item)]
+            merged[key] = existing_values
     return merged
 
 
@@ -57,14 +60,19 @@ def merge_graph_documents(
         A single GraphDocument with deduplicated nodes and relationships.
         Its `source` is set to the first chunk's source document as a
         placeholder -- a merged graph no longer maps to one chunk, so don't
-        rely on it for provenance. See the note at the bottom of this file if
-        you need per-entity provenance (which chunk each node came from).
+        rely on it for provenance. Per-entity provenance is not tracked. Empty input raises ValueError;
+        relationship-only endpoints are included in the merged node list.
     """
+    if not graph_documents:
+        raise ValueError("At least one graph document is required.")
+
     node_lookup: Dict[Tuple[str, str], Node] = {}
 
     # --- 1. Merge nodes, keyed by (normalized id, type) ---
     for gd in graph_documents:
-        for node in gd.nodes:
+        candidates = list(gd.nodes)
+        candidates.extend(n for r in gd.relationships for n in (r.source, r.target))
+        for node in candidates:
             key = (_normalize_id(node.id, case_sensitive), node.type)
             if key in node_lookup:
                 existing = node_lookup[key]
@@ -74,7 +82,7 @@ def merge_graph_documents(
                     properties=_merge_properties(existing.properties, node.properties),
                 )
             else:
-                node_lookup[key] = node
+                node_lookup[key] = node.model_copy(deep=True)
 
     # --- 2. Merge relationships, remapped to the canonical (deduplicated) nodes ---
     rel_lookup: Dict[Tuple[str, str, str, str, str], Relationship] = {}
@@ -108,7 +116,7 @@ def merge_graph_documents(
                     source=canonical_source,
                     target=canonical_target,
                     type=rel.type,
-                    properties=rel.properties,
+                    properties=deepcopy(rel.properties),
                 )
 
     merged_source = graph_documents[0].source if graph_documents else None
@@ -118,20 +126,3 @@ def merge_graph_documents(
         relationships=list(rel_lookup.values()),
         source=merged_source,
     )
-
-
-if __name__ == "__main__":
-    # Example, matching your notebook's variable names:
-    #
-    #   graph_documents = llm_transformer.convert_to_graph_documents(chunks)
-    #   merged = merge_graph_documents(graph_documents)
-    #
-    #   print(f"Before merge: {sum(len(g.nodes) for g in graph_documents)} nodes, "
-    #         f"{sum(len(g.relationships) for g in graph_documents)} relationships")
-    #   print(f"After merge:  {len(merged.nodes)} nodes, {len(merged.relationships)} relationships")
-    #
-    # If you later push to Neo4j:
-    #   graph.add_graph_documents([merged], baseEntityLabel=True, include_source=True)
-    # Note Neo4j's own MERGE is exact-string and case-sensitive, so running this
-    # first (with case_sensitive=False) catches duplicates Neo4j alone would miss.
-    pass

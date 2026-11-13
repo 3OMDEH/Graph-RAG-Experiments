@@ -1,0 +1,11 @@
+# Notebook extraction and visualization. Use a dedicated virtual environment.
+langchain-community
+langchain-core
+langchain-experimental
+langchain-ollama
+langchain-text-splitters
+pypdf
+pyvis
+jupyterlab
+ipykernel
+kg-gen
