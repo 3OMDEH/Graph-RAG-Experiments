@@ -120,11 +120,6 @@ These tests do not require Ollama or Memgraph. Full notebook execution additiona
 - Extraction can omit or invent facts. Check the PDF before treating graph relationships as evidence.
 - LangChain merging ignores ID case and surrounding whitespace but requires exact node types. It preserves the first ID spelling and combines conflicting property values. It does not resolve aliases or conflicting entity types.
 - A merged LangChain graph keeps the first chunk's source as a placeholder; it does not retain per-entity evidence or provenance.
-- KGGen extraction reports failed chunks and raises before export. Fix the cause and rerun extraction before continuing. Clustering can fall back to the unclustered graph after parsing retries are exhausted.
 - PDFs containing scanned images may need OCR before these text-loading workflows can use them.
 - Dependency manifests describe the required packages but are not a locked, reproducible environment.
-
-## References
-
-- [LangChain LLMGraphTransformer source](https://github.com/langchain-ai/langchain-experimental/blob/main/libs/experimental/langchain_experimental/graph_transformers/llm.py) documents the transformer used by the LangChain notebooks.
-- [KGGen project and usage](https://github.com/stair-lab/kg-gen) describes generation and clustering APIs.
+- Always ask codex/claude code code for a help 😂.
