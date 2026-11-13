@@ -31,8 +31,6 @@ PDF -> text chunks -> Ollama extraction -> merge / cluster
 | [requirements.txt](requirements.txt) | Dependencies for extraction, visualization, and Jupyter. |
 | [requirements-memgraph.txt](requirements-memgraph.txt) | Optional database client dependency. |
 | [tests/test_graph_utilities.py](tests/test_graph_utilities.py) | Regression tests for merge behavior, JSON validation/export, and query construction without a live database. |
-| [.gitignore](.gitignore) | Excludes environments, caches, local secrets, and generated outputs. |
-| [README.md](README.md) | Project overview, file guide, setup, and usage instructions. |
 
 Notebook filenames are retained so existing links remain useful. Shared operations live in Python modules to avoid maintaining separate copies in each notebook.
 
